@@ -1,5 +1,16 @@
-import requests
 import json
+import os
+
+import requests
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+
+if not API_KEY:
+    raise ValueError("API_KEY is not set in your .env file")
 
 # response = requests.get(
 #     'https://api.nba2kapi.com/api/players/slug/lebron-james',
@@ -22,7 +33,7 @@ response = requests.get(
     params={
         'teamType': 'curr'
     },
-    headers={'X-API-Key': '2k_lxhohgxmrv1zakjzc3c2g9mc7weo3l79'}
+    headers={'X-API-Key': API_KEY}
 )
 
 data = response.json()
