@@ -235,3 +235,13 @@ Team fit and chemistry:
 - Simulate how adding a player might change a team's overall attribute profile.
 
 The main idea is that these generated attributes can become a simpler layer on top of detailed NBA data. They are not meant to replace scouting or deeper statistics, but they can make player comparison and style analysis faster and more intuitive.
+
+## Acknowledgements and Data Sources
+
+This project was made possible by the following tools and data sources:
+
+- [`nba_api`](https://github.com/swar/nba_api): used to retrieve NBA statistics from NBA.com.
+- [NBA2K API](https://www.nba2kapi.com): provided NBA 2K player and roster data.
+- [MikeYan01/nba2k-player-ratings](https://github.com/MikeYan01/nba2k-player-ratings): provided the NBA 2K22, NBA 2K23, and NBA 2K24 player-rating data used in this project.
+
+Thank you to the maintainers and contributors who made these resources publicly available.
