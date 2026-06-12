@@ -1,0 +1,3333 @@
+{
+  "ajhammons": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "260"
+  },
+  "ajprice": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "195"
+  },
+  "aaronbrooks": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "161"
+  },
+  "aarongray": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "270"
+  },
+  "aaronharrison": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "210"
+  },
+  "aaronjackson": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "183"
+  },
+  "acielaw": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "202"
+  },
+  "adonisthomas": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "240"
+  },
+  "adreianpayne": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "237"
+  },
+  "alharrington": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "245"
+  },
+  "aljefferson": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "280"
+  },
+  "althornton": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "alananderson": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "220"
+  },
+  "alecpeters": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "alexkirk": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "245"
+  },
+  "alexsarr": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "205"
+  },
+  "alexstepheson": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "270"
+  },
+  "alexeyshved": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "187"
+  },
+  "alexisajinca": {
+    "position": "C",
+    "height": "7-2",
+    "weight": "248"
+  },
+  "alonzogee": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "amarestoudemire": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "245"
+  },
+  "andersonvarejao": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "andrayblatche": {
+    "position": "C/F",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "andredawkins": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "219"
+  },
+  "andreemmett": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "230"
+  },
+  "andreingram": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "andremiller": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "andreabargnani": {
+    "position": "C/F",
+    "height": "7-0",
+    "weight": "245"
+  },
+  "andreikirilenko": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "andrewbynum": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "285"
+  },
+  "andrewgoudelock": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "andrewnicholson": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "andrewwhiteiii": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "andrisbiedrins": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "250"
+  },
+  "andyrautins": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "190"
+  },
+  "antawnjamison": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "anthonybennett": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "anthonybrown": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "224"
+  },
+  "anthonycarter": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "190"
+  },
+  "anthonymorrow": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "anthonyparker": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "210"
+  },
+  "anthonyrandolph": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "antoinewright": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "215"
+  },
+  "antoniomcdyess": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "245"
+  },
+  "antoniuscleveland": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "archiegoodwin": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "205"
+  },
+  "arinzeonuaku": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "255"
+  },
+  "armonjohnson": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "195"
+  },
+  "arnettmoultrie": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "austindaye": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "220"
+  },
+  "axeltoupane": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "barondavis": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "212"
+  },
+  "benbentil": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "benhansbrough": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "203"
+  },
+  "benmoore": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "220"
+  },
+  "benuzoh": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "205"
+  },
+  "benwallace": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "240"
+  },
+  "benoudrih": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "205"
+  },
+  "bernardjames": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "blakeahearn": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "190"
+  },
+  "bobbybrown": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "175"
+  },
+  "bobbysimmons": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "235"
+  },
+  "borisdiaw": {
+    "position": "C/F",
+    "height": "6-8",
+    "weight": "250"
+  },
+  "bradmiller": {
+    "position": "C/F",
+    "height": "7-0",
+    "weight": "261"
+  },
+  "brandanwright": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "brandendawson": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "brandonbass": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "250"
+  },
+  "brandonboston": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "188"
+  },
+  "brandondavies": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "brandongoodwin": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "180"
+  },
+  "brandonpaul": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "200"
+  },
+  "brandonrush": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "brandonsampson": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "184"
+  },
+  "brendanhaywood": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "263"
+  },
+  "briancardinal": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "240"
+  },
+  "briancook": {
+    "position": "C/F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "brianroberts": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "173"
+  },
+  "brianscalabrine": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "brianskinner": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "255"
+  },
+  "bricejohnson": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "230"
+  },
+  "brucebrownjr": {},
+  "brunocaboclo": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "218"
+  },
+  "brycecotton": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "165"
+  },
+  "brycedejeanjones": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "203"
+  },
+  "byronmullens": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "275"
+  },
+  "cjwatson": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "175"
+  },
+  "cjwilcox": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "camreddish": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "217"
+  },
+  "camreynolds": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "225"
+  },
+  "cameronbairstow": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "carllandry": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "248"
+  },
+  "carldelljohnson": {
+    "position": "G",
+    "height": "5-10",
+    "weight": "180"
+  },
+  "carlosarroyo": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "200"
+  },
+  "carlosboozer": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "258"
+  },
+  "carlosdelfino": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "230"
+  },
+  "carrickfelix": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "201"
+  },
+  "cartiermartin": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "casperware": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "charlescooke": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "196"
+  },
+  "charlesjenkins": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "215"
+  },
+  "charliebell": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "charliebrownjr": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "199"
+  },
+  "charlievillanueva": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "232"
+  },
+  "chasebudinger": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "209"
+  },
+  "chaunceybillups": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "210"
+  },
+  "chinanuonuaku": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "245"
+  },
+  "chrisandersen": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "245"
+  },
+  "chrisbabb": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "225"
+  },
+  "chrisbosh": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "235"
+  },
+  "chriscopeland": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "239"
+  },
+  "chrisdouglasroberts": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "chrisduhon": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "190"
+  },
+  "chrisjohnson": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "210"
+  },
+  "chriskaman": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "265"
+  },
+  "chrismccullough": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "215"
+  },
+  "chrisquinn": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "175"
+  },
+  "chrissingleton": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "228"
+  },
+  "chrissmith": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "chriswilcox": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "chriswright": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "226"
+  },
+  "christianeyenga": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "chuckhayes": {
+    "position": "F/C",
+    "height": "6-6",
+    "weight": "240"
+  },
+  "cleanthonyearly": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "210"
+  },
+  "cliffalexander": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "240"
+  },
+  "colealdrich": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "253"
+  },
+  "coreybrewer": {
+    "position": "G/F",
+    "height": "6-9",
+    "weight": "188"
+  },
+  "coreymaggette": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "coryhiggins": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "180"
+  },
+  "coryjefferson": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "218"
+  },
+  "cotyclarke": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "225"
+  },
+  "courtneyfortson": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "185"
+  },
+  "craigbrackins": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "230"
+  },
+  "craigsmith": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "265"
+  },
+  "cuicui": {
+    "position": "F",
+    "height": "6-5",
+    "weight": "190"
+  },
+  "djkennedy": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "214"
+  },
+  "djmbenga": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "djwhite": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "dajuansummers": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "240"
+  },
+  "daequancook": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "dahntayjones": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "dakarijohnson": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "damieninglis": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "246"
+  },
+  "damienwilkins": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "217"
+  },
+  "damionjames": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "225"
+  },
+  "damjanrudez": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "228"
+  },
+  "danielgibson": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "200"
+  },
+  "danielochefu": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "245"
+  },
+  "danielorton": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "275"
+  },
+  "dannygranger": {
+    "position": "F/G",
+    "height": "6-9",
+    "weight": "222"
+  },
+  "danuelhousejr": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "220"
+  },
+  "daringtonhobson": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "dariusjohnsonodom": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "215"
+  },
+  "dariusmorris": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "195"
+  },
+  "dariussongaila": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "248"
+  },
+  "darkomilicic": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "275"
+  },
+  "darnelljackson": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "253"
+  },
+  "darrellarthur": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "darrunhilliard": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "220"
+  },
+  "darrylwatkins": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "258"
+  },
+  "davidandersen": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "davidlee": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "245"
+  },
+  "davidstockton": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "165"
+  },
+  "davidwear": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "230"
+  },
+  "davidwest": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "deandreliggins": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "209"
+  },
+  "dejuanblair": {
+    "position": "C/F",
+    "height": "6-7",
+    "weight": "270"
+  },
+  "desaganadiop": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "280"
+  },
+  "deshawnstevenson": {
+    "position": "F/G",
+    "height": "6-5",
+    "weight": "218"
+  },
+  "delontewest": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "180"
+  },
+  "dengadel": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "200"
+  },
+  "dennishorner": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "230"
+  },
+  "derekfisher": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "210"
+  },
+  "deronwilliams": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "derrickbrown": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "233"
+  },
+  "derrickbyars": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "derrickcaracter": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "275"
+  },
+  "derrickwaltonjr": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "185"
+  },
+  "derrickwilliams": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "240"
+  },
+  "devinebanks": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "215"
+  },
+  "devynmarble": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "200"
+  },
+  "dexterpittman": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "285"
+  },
+  "deyontadavis": {
+    "position": "C/F",
+    "height": "6-11",
+    "weight": "237"
+  },
+  "diamondstone": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "255"
+  },
+  "diantegarrett": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "190"
+  },
+  "didilouzada": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "188"
+  },
+  "diontechristmas": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "dominicmcguire": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "dominiquejones": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "215"
+  },
+  "donaldsloan": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "205"
+  },
+  "donatasmotiejunas": {
+    "position": "F/C",
+    "height": "7-0",
+    "weight": "220"
+  },
+  "dontegrantham": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "215"
+  },
+  "dontegreene": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "226"
+  },
+  "dorellwright": {
+    "position": "F/G",
+    "height": "6-9",
+    "weight": "205"
+  },
+  "doronlamb": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "200"
+  },
+  "drewgordon": {
+    "position": "C/F",
+    "height": "6-9",
+    "weight": "245"
+  },
+  "dujedukan": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "220"
+  },
+  "dwightbuycks": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "earlbarron": {
+    "position": "F/C",
+    "height": "7-0",
+    "weight": "250"
+  },
+  "earlboykins": {
+    "position": "G",
+    "height": "5-5",
+    "weight": "133"
+  },
+  "earlclark": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "234"
+  },
+  "earlwatson": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "199"
+  },
+  "eddiehouse": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "190"
+  },
+  "eddycurry": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "295"
+  },
+  "edwinubiles": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "204"
+  },
+  "edytavares": {
+    "position": "C",
+    "height": "7-3",
+    "weight": "265"
+  },
+  "eliasharris": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "239"
+  },
+  "elijahmillsap": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "215"
+  },
+  "elliotwilliams": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "190"
+  },
+  "emanuelterry": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "220"
+  },
+  "enesfreedom": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "250"
+  },
+  "ericdawson": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "ericmaynor": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "175"
+  },
+  "ericmoreland": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "238"
+  },
+  "erickdampier": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "265"
+  },
+  "erickgreen": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "185"
+  },
+  "erikmccree": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "225"
+  },
+  "erikmurphy": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "230"
+  },
+  "etanthomas": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "260"
+  },
+  "fabmelo": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "fabriciooberto": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "245"
+  },
+  "facundocampazzo": {
+    "position": "G",
+    "height": "5-10",
+    "weight": "195"
+  },
+  "festusezeli": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "265"
+  },
+  "franciscoelson": {
+    "position": "C/F",
+    "height": "7-0",
+    "weight": "240"
+  },
+  "franciscogarcia": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "215"
+  },
+  "frankkaminskyiii": {},
+  "frankmasoniii": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "190"
+  },
+  "furkanaldemir": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "gabrieldeck": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "231"
+  },
+  "galmekel": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "191"
+  },
+  "ganilawal": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "234"
+  },
+  "garretsiler": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "305"
+  },
+  "garyforbes": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "garyneal": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "210"
+  },
+  "georgiospapagiannis": {
+    "position": "C",
+    "height": "7-1",
+    "weight": "240"
+  },
+  "geraldhenderson": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "175"
+  },
+  "geraldwallace": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "gianclavell": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "185"
+  },
+  "gigidatome": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "215"
+  },
+  "gilbertarenas": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "215"
+  },
+  "glendavis": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "289"
+  },
+  "glenrice": {
+    "position": "F/G",
+    "height": "6-8",
+    "weight": "228"
+  },
+  "granthill": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "225"
+  },
+  "grantjerrett": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "232"
+  },
+  "gregsmith": {
+    "position": "F",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "gregstiemsma": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "greivisvasquez": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "217"
+  },
+  "gustavoayon": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "hakimwarrick": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "219"
+  },
+  "hamadyndiaye": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "235"
+  },
+  "hamedhaddadi": {
+    "position": "C",
+    "height": "7-2",
+    "weight": "265"
+  },
+  "hasheemthabeet": {
+    "position": "C",
+    "height": "7-3",
+    "weight": "263"
+  },
+  "hedoturkoglu": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "220"
+  },
+  "henrysims": {
+    "position": "C/F",
+    "height": "6-10",
+    "weight": "248"
+  },
+  "henrywalker": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "235"
+  },
+  "hiltonarmstrong": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "235"
+  },
+  "hollisthompson": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "206"
+  },
+  "ikediogu": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "imeudoka": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "220"
+  },
+  "isaiahtaylor": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "170"
+  },
+  "isaiahwhitehead": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "213"
+  },
+  "ivanjohnson": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "255"
+  },
+  "jtthor": {},
+  "jjhickson": {
+    "position": "C/F",
+    "height": "6-9",
+    "weight": "242"
+  },
+  "jjobrien": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "jajuanjohnson": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "221"
+  },
+  "jakarrsampson": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "214"
+  },
+  "jabaribrown": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "214"
+  },
+  "jackcooley": {
+    "position": "C/F",
+    "height": "6-10",
+    "weight": "274"
+  },
+  "jacobpullen": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "200"
+  },
+  "jacobwiley": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "223"
+  },
+  "jalenjones": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "jamaalfranklin": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "191"
+  },
+  "jamaalmagloire": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "265"
+  },
+  "jamariomoon": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "205"
+  },
+  "jameelwarney": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "260"
+  },
+  "jameernelson": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "190"
+  },
+  "jamelartis": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "213"
+  },
+  "jamesanderson": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "213"
+  },
+  "jamesjones": {
+    "position": "G/F",
+    "height": "6-8",
+    "weight": "218"
+  },
+  "jamesmichaelmcadoo": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "230"
+  },
+  "jamessingleton": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "230"
+  },
+  "jamessoutherland": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "215"
+  },
+  "jameswebbiii": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "202"
+  },
+  "jameswhite": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "215"
+  },
+  "jamesyoung": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "215"
+  },
+  "jamilwilson": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "229"
+  },
+  "janvesely": {
+    "position": "F",
+    "height": "7-0",
+    "weight": "242"
+  },
+  "janneropargo": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "185"
+  },
+  "jaredcunningham": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "195"
+  },
+  "jaredjeffries": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "240"
+  },
+  "jaredsullinger": {
+    "position": "C/F",
+    "height": "6-9",
+    "weight": "260"
+  },
+  "jarelleddie": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "218"
+  },
+  "jarnellstokes": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "255"
+  },
+  "jaronblossomgame": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "220"
+  },
+  "jarrettjack": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "jarroduthoff": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "220"
+  },
+  "jarroncollins": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "249"
+  },
+  "jarvisvarnado": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "230"
+  },
+  "jasoncollins": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "jasonkapono": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "215"
+  },
+  "jasonkidd": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "210"
+  },
+  "jasonmaxiell": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "260"
+  },
+  "jasonrichardson": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "jasonterry": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "185"
+  },
+  "jasonthompson": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "250"
+  },
+  "jawadwilliams": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "225"
+  },
+  "jawunevans": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "190"
+  },
+  "jeffadrien": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "jeffayres": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "jeffdowtinjr": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "177"
+  },
+  "jefffoote": {
+    "position": "C/F",
+    "height": "7-0",
+    "weight": "265"
+  },
+  "jefffoster": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "250"
+  },
+  "jeffwithey": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "230"
+  },
+  "jefferytaylor": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "jerelmcneal": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "jeremyevans": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "200"
+  },
+  "jeremypargo": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "219"
+  },
+  "jeremytyler": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "250"
+  },
+  "jermaineoneal": {
+    "position": "C/F",
+    "height": "6-11",
+    "weight": "255"
+  },
+  "jermainetaylor": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "210"
+  },
+  "jeromedyson": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "180"
+  },
+  "jeromejordan": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "253"
+  },
+  "jerrellebenimon": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "jerrysmith": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "190"
+  },
+  "jerrystackhouse": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "218"
+  },
+  "jimmerfredette": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "195"
+  },
+  "jimmybutleriii": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "230"
+  },
+  "joakimnoah": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "232"
+  },
+  "joejohnson": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "240"
+  },
+  "joesmith": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "225"
+  },
+  "joeyoung": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "185"
+  },
+  "joelanthony": {
+    "position": "C",
+    "height": "6-9",
+    "weight": "245"
+  },
+  "joelbolomboy": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "joelfreeland": {
+    "position": "C/F",
+    "height": "6-10",
+    "weight": "225"
+  },
+  "joelprzybilla": {
+    "position": "C",
+    "height": "7-1",
+    "weight": "245"
+  },
+  "joeydorsey": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "joffreylauvergne": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "johnbutler": {
+    "position": "F",
+    "height": "7-0",
+    "weight": "190"
+  },
+  "johnholland": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "205"
+  },
+  "johnjenkins": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "215"
+  },
+  "johnlucasiii": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "166"
+  },
+  "johnsalmons": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "210"
+  },
+  "johnnydavis": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "170"
+  },
+  "johnnyobryantiii": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "257"
+  },
+  "jonbrockman": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "255"
+  },
+  "jonathangibson": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "185"
+  },
+  "jordanadams": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "209"
+  },
+  "jordancrawford": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "jordanfarmar": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "180"
+  },
+  "jordanhamilton": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "jordanhill": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "jordanmickey": {
+    "position": "C/F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "jordansibert": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "187"
+  },
+  "jordanwilliams": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "260"
+  },
+  "jorgegutierrez": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "189"
+  },
+  "joshakognon": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "185"
+  },
+  "joshchildress": {
+    "position": "F/G",
+    "height": "6-8",
+    "weight": "210"
+  },
+  "joshdavis": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "joshgray": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "180"
+  },
+  "joshharrellson": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "275"
+  },
+  "joshhoward": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "joshhuestis": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "230"
+  },
+  "joshmagette": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "160"
+  },
+  "joshmcroberts": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "joshpowell": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "240"
+  },
+  "joshselby": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "183"
+  },
+  "joshsmith": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "225"
+  },
+  "julianwashburn": {
+    "position": "F/G",
+    "height": "6-8",
+    "weight": "209"
+  },
+  "julianwright": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "225"
+  },
+  "julyanstone": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "200"
+  },
+  "justindentmon": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "185"
+  },
+  "justinhamilton": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "justinharper": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "225"
+  },
+  "justintillman": {},
+  "juwanhoward": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "kjmartin": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "215"
+  },
+  "kjmcdaniels": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "205"
+  },
+  "kadeemallen": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "200"
+  },
+  "kalinlucas": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "195"
+  },
+  "kayfelder": {
+    "position": "G",
+    "height": "5-9",
+    "weight": "176"
+  },
+  "keithappling": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "185"
+  },
+  "keithbenson": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "230"
+  },
+  "keithbogans": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "215"
+  },
+  "kelennaazubuike": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "215"
+  },
+  "kendallmarshall": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "200"
+  },
+  "kendrickperkins": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "270"
+  },
+  "kevingarnett": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "240"
+  },
+  "kevinjones": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "260"
+  },
+  "kevinknoxii": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "215"
+  },
+  "kevinmartin": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "199"
+  },
+  "kevinmccullar": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "210"
+  },
+  "kevinmurphy": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "185"
+  },
+  "kevinseraphin": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "278"
+  },
+  "keyondooling": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "195"
+  },
+  "kimenglish": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "200"
+  },
+  "kirkhinrich": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "190"
+  },
+  "kobebryant": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "212"
+  },
+  "kobisimmons": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "180"
+  },
+  "kostaspapanikolaou": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "krishumphries": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "krisjoseph": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "kurtthomas": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "240"
+  },
+  "kwamebrown": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "290"
+  },
+  "kylecollinsworth": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "210"
+  },
+  "kylesingler": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "228"
+  },
+  "kyleweaver": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "201"
+  },
+  "kylewiltjer": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "kyrylofesenko": {
+    "position": "C",
+    "height": "7-1",
+    "weight": "280"
+  },
+  "lamarpatterson": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "225"
+  },
+  "larrydrewii": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "180"
+  },
+  "larryhughes": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "185"
+  },
+  "larryowens": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "larrysanders": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "230"
+  },
+  "lavoyallen": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "260"
+  },
+  "lazarhayward": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "leandrobarbosa": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "194"
+  },
+  "leonpowe": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "240"
+  },
+  "lesterhudson": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "linaskleiza": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "234"
+  },
+  "londonperrantes": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "190"
+  },
+  "louamundson": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "220"
+  },
+  "lucasnogueira": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "220"
+  },
+  "luismontero": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "200"
+  },
+  "luisscola": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "241"
+  },
+  "lukebabbitt": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "225"
+  },
+  "lukeharangody": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "245"
+  },
+  "lukeridnour": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "175"
+  },
+  "lukewalton": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "lukezeller": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "245"
+  },
+  "lutherhead": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "185"
+  },
+  "maalikwayns": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "195"
+  },
+  "malcolmdelaney": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "malcolmhill": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "220"
+  },
+  "malcolmlee": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "200"
+  },
+  "malcolmmiller": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "malcolmthomas": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "225"
+  },
+  "malikallen": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "255"
+  },
+  "mangokmathiang": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "230"
+  },
+  "mannyharris": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "185"
+  },
+  "manuginobili": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "205"
+  },
+  "marcelohuertas": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "marcusbanks": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "205"
+  },
+  "marcuscamby": {
+    "position": "C/F",
+    "height": "6-11",
+    "weight": "240"
+  },
+  "marcuscousin": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "255"
+  },
+  "marcusgeorgeshunt": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "226"
+  },
+  "marcusmorrissr": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "218"
+  },
+  "marcuspaige": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "164"
+  },
+  "marcusthornton": {
+    "position": "G/F",
+    "height": "6-4",
+    "weight": "205"
+  },
+  "mariowest": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "markelbrown": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "marquisdaniels": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "200"
+  },
+  "marquisteague": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "189"
+  },
+  "marreesespeights": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "255"
+  },
+  "marshallplumlee": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "250"
+  },
+  "martellwebster": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "230"
+  },
+  "mattbarnes": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "226"
+  },
+  "mattbonner": {
+    "position": "C/F",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "mattcarroll": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "212"
+  },
+  "mattcostello": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "240"
+  },
+  "mattwilliamsjr": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "mauriceager": {
+    "position": "F/G",
+    "height": "6-5",
+    "weight": "202"
+  },
+  "mauriceevans": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "220"
+  },
+  "mauricendour": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "200"
+  },
+  "mehmetokur": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "melvinely": {
+    "position": "C/F",
+    "height": "6-10",
+    "weight": "260"
+  },
+  "mettaworldpeace": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "260"
+  },
+  "michaelfrazierii": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "michaelgbinije": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "200"
+  },
+  "michaelredd": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "215"
+  },
+  "mickaelgelabale": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "215"
+  },
+  "mickaelpietrus": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "215"
+  },
+  "mickellgladness": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "220"
+  },
+  "mikedunleavy": {
+    "position": "G/F",
+    "height": "6-9",
+    "weight": "230"
+  },
+  "mikeharris": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "242"
+  },
+  "mikejames": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "188"
+  },
+  "mikemiller": {
+    "position": "G/F",
+    "height": "6-8",
+    "weight": "218"
+  },
+  "miketobey": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "260"
+  },
+  "mikkimoore": {
+    "position": "F/C",
+    "height": "7-0",
+    "weight": "225"
+  },
+  "miltondoyle": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "180"
+  },
+  "mindaugaskuzminskas": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "215"
+  },
+  "miroslavraduljica": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "250"
+  },
+  "mirzateletovic": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "242"
+  },
+  "mitchmcgary": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "255"
+  },
+  "mitchellcreek": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "mowilliams": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "198"
+  },
+  "mohamedbamba": {},
+  "montaellis": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "185"
+  },
+  "morrisalmond": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "morrispeterson": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "mustafashakur": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "mychelthompson": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "211"
+  },
+  "mykehenry": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "210"
+  },
+  "nandodecolo": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "natedarling": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "200"
+  },
+  "naterobinson": {
+    "position": "G",
+    "height": "5-9",
+    "weight": "180"
+  },
+  "natewolters": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "190"
+  },
+  "nazrmohammed": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "250"
+  },
+  "nemanjanedovic": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "192"
+  },
+  "nenadkrstic": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "240"
+  },
+  "nickcalathes": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "213"
+  },
+  "nickcollison": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "255"
+  },
+  "nickjohnson": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "202"
+  },
+  "nickyoung": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "210"
+  },
+  "nicolasbrussino": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "195"
+  },
+  "nicolaslaprovittola": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "180"
+  },
+  "nicolomelli": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "236"
+  },
+  "nikolapekovic": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "307"
+  },
+  "nolansmith": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "185"
+  },
+  "norriscole": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "175"
+  },
+  "ognjenkuzmic": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "260"
+  },
+  "okarowhite": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "205"
+  },
+  "omarijohnson": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "220"
+  },
+  "omerasik": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "oriengreene": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "208"
+  },
+  "orlandojohnson": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "220"
+  },
+  "othyusjeffers": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "pjhairston": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "230"
+  },
+  "pabloprigioni": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "185"
+  },
+  "papesy": {
+    "position": "F/G",
+    "height": "6-7",
+    "weight": "225"
+  },
+  "patriciogarino": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "203"
+  },
+  "patrickchristopher": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "patrickewing": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "255"
+  },
+  "patrickmccaw": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "181"
+  },
+  "paulzipser": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "226"
+  },
+  "pejastojakovic": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "229"
+  },
+  "peroantic": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "perryjonesiii": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "235"
+  },
+  "peytonsiva": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "185"
+  },
+  "philpressey": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "175"
+  },
+  "pierrejackson": {
+    "position": "G",
+    "height": "5-10",
+    "weight": "180"
+  },
+  "poohjeter": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "175"
+  },
+  "popsmensahbonsu": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "235"
+  },
+  "quentinrichardson": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "228"
+  },
+  "quincyacy": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "240"
+  },
+  "quincymiller": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "210"
+  },
+  "quincyolivari": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "200"
+  },
+  "quintonross": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "193"
+  },
+  "rjhunter": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "185"
+  },
+  "rajabell": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "rakeemchristmas": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "ramonsessions": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "randyfoye": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "218"
+  },
+  "rashadvaughn": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "202"
+  },
+  "rashardlewis": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "rasheedwallace": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "230"
+  },
+  "rasualbutler": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "215"
+  },
+  "raymccallum": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "reggiebullockjr": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "205"
+  },
+  "reggiehearn": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "210"
+  },
+  "reggiewilliams": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "renaldobalkman": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "225"
+  },
+  "richardhamilton": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "193"
+  },
+  "richardjefferson": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "233"
+  },
+  "rickyledo": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "195"
+  },
+  "robbiehummel": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "219"
+  },
+  "robertsacre": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "270"
+  },
+  "rodneycarney": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "205"
+  },
+  "rodneypurvis": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "205"
+  },
+  "rodneystuckey": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "205"
+  },
+  "rodriguebeaubois": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "185"
+  },
+  "rogermasonjr": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "205"
+  },
+  "ronalddupree": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "209"
+  },
+  "ronniebrewer": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "235"
+  },
+  "ronnieprice": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "190"
+  },
+  "ronnyturiaf": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "249"
+  },
+  "royhibbert": {
+    "position": "C",
+    "height": "7-2",
+    "weight": "270"
+  },
+  "royalivey": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "200"
+  },
+  "roycewhite": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "260"
+  },
+  "rudyfernandez": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "russsmith": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "165"
+  },
+  "ryangomes": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "245"
+  },
+  "ryanhollins": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "240"
+  },
+  "ryankelly": {
+    "position": "F",
+    "height": "6-11",
+    "weight": "230"
+  },
+  "ryanreid": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "235"
+  },
+  "samyoung": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "225"
+  },
+  "samardosamuels": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "samueldalembert": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "255"
+  },
+  "sashakaun": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "260"
+  },
+  "sashapavlovic": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "235"
+  },
+  "sashavujacic": {
+    "position": "G",
+    "height": "6-7",
+    "weight": "195"
+  },
+  "scottmachado": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "205"
+  },
+  "scottyhopson": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "204"
+  },
+  "seankilpatrick": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "212"
+  },
+  "seanmarks": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "250"
+  },
+  "seanwilliams": {
+    "position": "F/C",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "sebastiantelfair": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "170"
+  },
+  "semajchriston": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "190"
+  },
+  "semiherden": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "240"
+  },
+  "sergeykarasev": {
+    "position": "G/F",
+    "height": "6-7",
+    "weight": "208"
+  },
+  "sergiorodriguez": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "176"
+  },
+  "shabazzmuhammad": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "221"
+  },
+  "shaneedwards": {
+    "position": "F",
+    "height": "6-7",
+    "weight": "220"
+  },
+  "shanelarkin": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "175"
+  },
+  "shannonbrown": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "215"
+  },
+  "shaquilleoneal": {
+    "position": "C",
+    "height": "7-1",
+    "weight": "325"
+  },
+  "shavlikrandolph": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "236"
+  },
+  "shawnlong": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "255"
+  },
+  "shawnewilliams": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "230"
+  },
+  "shaynewhittington": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "250"
+  },
+  "sheldonmac": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "200"
+  },
+  "sherroncollins": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "205"
+  },
+  "simbhullar": {
+    "position": "C",
+    "height": "7-5",
+    "weight": "360"
+  },
+  "solomonalabi": {
+    "position": "C",
+    "height": "7-1",
+    "weight": "252"
+  },
+  "solomonjones": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "sonnyweems": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "205"
+  },
+  "spencerhawes": {
+    "position": "F/C",
+    "height": "7-1",
+    "weight": "245"
+  },
+  "stephengraham": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "215"
+  },
+  "stephenzimmerman": {
+    "position": "C",
+    "height": "7-0",
+    "weight": "240"
+  },
+  "steveblake": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "172"
+  },
+  "stevenash": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "178"
+  },
+  "stevenovak": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "225"
+  },
+  "sundiatagaines": {
+    "position": "G",
+    "height": "6-1",
+    "weight": "200"
+  },
+  "sviatoslavmykhailiuk": {},
+  "tjford": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "165"
+  },
+  "tarikblack": {
+    "position": "F/C",
+    "height": "6-9",
+    "weight": "250"
+  },
+  "tayshaunprince": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "212"
+  },
+  "terrelharris": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "190"
+  },
+  "terrencejones": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "252"
+  },
+  "terrencewilliams": {
+    "position": "G/F",
+    "height": "6-6",
+    "weight": "220"
+  },
+  "theoratliff": {
+    "position": "C",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "thomasrobinson": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "237"
+  },
+  "tiagosplitter": {
+    "position": "C/F",
+    "height": "6-11",
+    "weight": "245"
+  },
+  "tiborpleiss": {
+    "position": "C",
+    "height": "7-3",
+    "weight": "256"
+  },
+  "timohlbrecht": {
+    "position": "C/F",
+    "height": "6-11",
+    "weight": "255"
+  },
+  "timquarterman": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "190"
+  },
+  "toneydouglas": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "195"
+  },
+  "tonyallen": {
+    "position": "G/F",
+    "height": "6-4",
+    "weight": "213"
+  },
+  "tonymitchell": {
+    "position": "F",
+    "height": "6-6",
+    "weight": "216"
+  },
+  "tonywroten": {
+    "position": "G",
+    "height": "6-6",
+    "weight": "205"
+  },
+  "tornikeshengelia": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "220"
+  },
+  "touremurry": {
+    "position": "F",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "tracymcgrady": {
+    "position": "G/F",
+    "height": "6-8",
+    "weight": "225"
+  },
+  "travisleslie": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "travisoutlaw": {
+    "position": "F",
+    "height": "6-9",
+    "weight": "207"
+  },
+  "traviswear": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "225"
+  },
+  "trevorbooker": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "228"
+  },
+  "treyjohnson": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "215"
+  },
+  "treymckinneyjones": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "220"
+  },
+  "treymurphy": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "206"
+  },
+  "treythompkins": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "245"
+  },
+  "troymurphy": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "245"
+  },
+  "tylawson": {
+    "position": "G",
+    "height": "5-11",
+    "weight": "195"
+  },
+  "tylerennis": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "194"
+  },
+  "tylerhansbrough": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "tylerhoneycutt": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "188"
+  },
+  "tylerzeller": {
+    "position": "F/C",
+    "height": "6-11",
+    "weight": "250"
+  },
+  "tyrusthomas": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "225"
+  },
+  "tyshawntaylor": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "185"
+  },
+  "vanderblue": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "200"
+  },
+  "vernonmacklin": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "227"
+  },
+  "viacheslavkravtsov": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "254"
+  },
+  "victorclaver": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "vincenthunter": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "208"
+  },
+  "vladimirradmanovic": {
+    "position": "F",
+    "height": "6-10",
+    "weight": "235"
+  },
+  "vonwafer": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "209"
+  },
+  "walkerrussell": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "195"
+  },
+  "waltlemonjr": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "180"
+  },
+  "willbynum": {
+    "position": "G",
+    "height": "6-0",
+    "weight": "185"
+  },
+  "willcherry": {
+    "position": "",
+    "height": "",
+    "weight": ""
+  },
+  "willconroy": {
+    "position": "G",
+    "height": "6-2",
+    "weight": "195"
+  },
+  "williegreen": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "205"
+  },
+  "williereed": {
+    "position": "C",
+    "height": "6-11",
+    "weight": "245"
+  },
+  "williewarren": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "203"
+  },
+  "xaviercooks": {
+    "position": "F",
+    "height": "6-8",
+    "weight": "183"
+  },
+  "xavierhenry": {
+    "position": "F/G",
+    "height": "6-6",
+    "weight": "220"
+  },
+  "xaviermunford": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "173"
+  },
+  "xavierrathanmayes": {
+    "position": "G",
+    "height": "6-4",
+    "weight": "208"
+  },
+  "xaviersilas": {
+    "position": "G",
+    "height": "6-5",
+    "weight": "205"
+  },
+  "yaoming": {
+    "position": "C",
+    "height": "7-6",
+    "weight": "310"
+  },
+  "zabiandowdell": {
+    "position": "G",
+    "height": "6-3",
+    "weight": "191"
+  },
+  "zorandragic": {
+    "position": "G/F",
+    "height": "6-5",
+    "weight": "200"
+  }
+}
