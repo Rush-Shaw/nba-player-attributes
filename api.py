@@ -1,18 +1,13 @@
-from unicodedata import name
-
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 import numpy as np
 import pandas as pd
 from constants import DATA_PATH
 import json
-from fastapi.responses import JSONResponse
-from fastapi import Path
 from fastapi import Request
 
 # attributes
 ATTRIBUTE_COLUMNS = {
-    "name",
     "overallAttribute",
     "closeShot",
     "midRangeShot",
@@ -59,10 +54,10 @@ def apply_query_filters(df, query_params):
             data = data[data["season"] == int(value)]
 
         elif key == "starting_season":
-            data = data[data["starting_season"] >= int(value)]
+            data = data[data["season"] >= int(value)]
 
         elif key == "ending_season":
-            data = data[data["ending_season"] < int(value)]
+            data = data[data["season"] < int(value)]
 
         elif key == "team":
             data = data[data["team"] == value]
@@ -83,10 +78,10 @@ def apply_query_filters(df, query_params):
                 data = data[data[column] <= float(value)]
         
         elif key == ("height"):
-            data = data[data["height_inches"] == value]
+            data = data[data["height_inches"] == int(value)]
 
         elif key == ("weight"):
-            data = data[data["weight_lbs"] == value]
+            data = data[data["weight_lbs"] == int(value)]
 
         elif key == "name":
             data = data[data["name"] == value]
