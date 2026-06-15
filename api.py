@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from contextlib import asynccontextmanager
 import numpy as np
 import pandas as pd
@@ -45,6 +45,45 @@ ATTRIBUTE_COLUMNS = {
     "defensiveRebound",
     "agility"
 }
+
+EXACT_FILTER_COLUMNS = {
+    "name",
+    "season",
+    "starting_season",
+    "ending_season",
+    "team",
+    "position_group",
+    "height",
+    "weight",
+}
+
+def validate_query_filters(query_params):
+    invalid_filters = []
+
+    for key in query_params:
+        if key in EXACT_FILTER_COLUMNS:
+            continue
+
+        if key.startswith("min_"):
+            column = key.removeprefix("min_")
+            if column in ATTRIBUTE_COLUMNS:
+                continue
+
+        if key.startswith("max_"):
+            column = key.removeprefix("max_")
+            if column in ATTRIBUTE_COLUMNS:
+                continue
+
+        invalid_filters.append(key)
+
+    if invalid_filters:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "message": "Unsupported query filter",
+                "invalid_filters": invalid_filters,
+            },
+        )
 
 def apply_query_filters(df, query_params):
     data = df
@@ -108,6 +147,7 @@ def clean_for_json(df):
 
 @app.get("/players")
 async def read_players(request: Request):
+    validate_query_filters(request.query_params)
     data = apply_query_filters(app.state.df, request.query_params)
     data = clean_for_json(data)
     return json.loads(data.to_json(orient="records"))
@@ -115,4 +155,4 @@ async def read_players(request: Request):
 @app.get("/players/summary")
 async def read_players_summary():
     data = clean_for_json(app.state.df)
-    return JSONResponse(json.loads(data.describe().to_json()))
+    return json.loads(data.describe().to_json())
