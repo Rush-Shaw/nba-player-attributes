@@ -3,3 +3,8 @@ venv
 .env
 scripts/__pycache__/*
 data/raw/nba_stats_cache/*
+__pycache__/api.cpython-311.pyc
+.gitignore
+data/processed/master_attributes_with_bio.csv
+__pycache__/constants.cpython-311.pyc
+data/processed/master_attributes_with_bio.csv
