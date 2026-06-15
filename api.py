@@ -1,3 +1,5 @@
+from unicodedata import name
+
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 import numpy as np
@@ -5,6 +7,87 @@ import pandas as pd
 from constants import DATA_PATH
 import json
 from fastapi.responses import JSONResponse
+from fastapi import Path
+from fastapi import Request
+
+# attributes
+ATTRIBUTE_COLUMNS = {
+    "name",
+    "overallAttribute",
+    "closeShot",
+    "midRangeShot",
+    "threePointShot",
+    "freeThrow",
+    "shotIQ",
+    "offensiveConsistency",
+    "layup",
+    "standingDunk",
+    "drivingDunk",
+    "postHook",
+    "postFade",
+    "postControl",
+    "drawFoul",
+    "hands",
+    "interiorDefense",
+    "perimeterDefense",
+    "steal",
+    "block",
+    "helpDefenseIQ",
+    "passPerception",
+    "defensiveConsistency",
+    "speed",
+    "strength",
+    "vertical",
+    "stamina",
+    "hustle",
+    "overallDurability",
+    "passAccuracy",
+    "ballHandle",
+    "speedWithBall",
+    "passIQ",
+    "passVision",
+    "offensiveRebound",
+    "defensiveRebound",
+    "agility",
+    "height",
+    "weight"
+}
+
+def apply_query_filters(df, query_params):
+    data = df
+
+    for key, value in query_params.items():
+        if key == "season":
+            data = data[data["season"] == int(value)]
+
+        elif key == "team":
+            data = data[data["team"] == value]
+
+        elif key == "position_group":
+            data = data[data["position_group"] == value]
+
+        elif key.startswith("min_"):
+            column = key.removeprefix("min_")
+
+            if column in ATTRIBUTE_COLUMNS:
+                data = data[data[column] >= float(value)]
+
+        elif key.startswith("max_"):
+            column = key.removeprefix("max_")
+
+            if column in ATTRIBUTE_COLUMNS:
+                data = data[data[column] <= float(value)]
+        
+        elif key == ("height"):
+            data = data[data["height_inches"] == value]
+
+        elif key == ("weight"):
+            data = data[data["weight_lbs"] == value]
+
+        elif key == "name":
+            data = data[data["name"] == value]
+
+    return data
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -25,9 +108,10 @@ def clean_for_json(df):
     return data
 
 @app.get("/players")
-async def read_players_data():
-    data = clean_for_json(app.state.df)
-    return JSONResponse(json.loads(data.to_json(orient="records")))
+async def read_players(request: Request):
+    data = apply_query_filters(app.state.df, request.query_params)
+    data = clean_for_json(data)
+    return json.loads(data.to_json(orient="records"))
 
 @app.get("/players/summary")
 async def read_players_summary():
