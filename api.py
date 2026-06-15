@@ -48,9 +48,7 @@ ATTRIBUTE_COLUMNS = {
     "passVision",
     "offensiveRebound",
     "defensiveRebound",
-    "agility",
-    "height",
-    "weight"
+    "agility"
 }
 
 def apply_query_filters(df, query_params):
@@ -59,6 +57,12 @@ def apply_query_filters(df, query_params):
     for key, value in query_params.items():
         if key == "season":
             data = data[data["season"] == int(value)]
+
+        elif key == "starting_season":
+            data = data[data["starting_season"] >= int(value)]
+
+        elif key == "ending_season":
+            data = data[data["ending_season"] < int(value)]
 
         elif key == "team":
             data = data[data["team"] == value]
