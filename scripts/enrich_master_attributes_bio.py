@@ -19,6 +19,7 @@ DEFAULT_2K26_RAW_PATH = PROJECT_ROOT / "data" / "raw" / "2k26_roster_raw.json"
 DEFAULT_BDL_CACHE_PATH = PROJECT_ROOT / "data" / "raw" / "balldontlie_players.json"
 DEFAULT_NBA_BIO_CACHE_PATH = PROJECT_ROOT / "data" / "raw" / "nba_player_bios.json"
 BALLDONTLIE_PLAYERS_URL = "https://api.balldontlie.io/v1/players"
+VALID_POSITIONS = {"PG", "SG", "SF", "PF", "C", "G", "F"}
 
 
 def load_dotenv(path):
@@ -89,6 +90,57 @@ def parse_weight_lbs(weight):
         return ""
 
     return match.group(0)
+
+
+def split_positions(position):
+    if not position:
+        return []
+
+    normalized = str(position).upper().replace("-", "/")
+    parts = [part.strip() for part in normalized.split("/") if part.strip()]
+    canonical_parts = []
+
+    for part in parts:
+        if part in VALID_POSITIONS and part not in canonical_parts:
+            canonical_parts.append(part)
+
+    return canonical_parts
+
+
+def derive_position_group(primary_position, secondary_position):
+    positions = {primary_position, secondary_position} - {""}
+
+    if not positions:
+        return ""
+
+    if "C" in positions:
+        return "Big"
+
+    if positions <= {"PG", "SG", "G"}:
+        return "Guard"
+
+    if positions <= {"PF", "F"} or "PF" in positions:
+        return "Forward"
+
+    if positions <= {"SF", "F"}:
+        return "Wing"
+
+    if positions & {"SG", "SF", "G", "F"}:
+        return "Wing"
+
+    return ""
+
+
+def normalize_position_fields(position):
+    positions = split_positions(position)
+    primary_position = positions[0] if positions else ""
+    secondary_position = positions[1] if len(positions) > 1 else ""
+
+    return {
+        "primary_position": primary_position,
+        "secondary_position": secondary_position,
+        "position_group": derive_position_group(primary_position, secondary_position),
+    }
 
 
 def load_master_rows(input_path):
@@ -301,6 +353,7 @@ def enrich_rows(rows, two_k26_by_name_team, two_k26_by_name, balldontlie_by_name
         }
         enriched_row["height_inches"] = parse_height_inches(enriched_row["height"])
         enriched_row["weight_lbs"] = parse_weight_lbs(enriched_row["weight"])
+        enriched_row.update(normalize_position_fields(enriched_row["position"]))
         enriched_rows.append(enriched_row)
 
     return enriched_rows, matched_from_2k26, matched_from_balldontlie, missing_names
@@ -310,7 +363,16 @@ def write_csv(rows, fieldnames, output_path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_fieldnames = fieldnames + [
         field
-        for field in ["position", "height", "weight", "height_inches", "weight_lbs"]
+        for field in [
+            "position",
+            "primary_position",
+            "secondary_position",
+            "position_group",
+            "height",
+            "weight",
+            "height_inches",
+            "weight_lbs",
+        ]
         if field not in fieldnames
     ]
 
@@ -405,6 +467,9 @@ def main():
 
     coverage = {
         "position": sum(1 for row in enriched_rows if row["position"]),
+        "primary_position": sum(1 for row in enriched_rows if row["primary_position"]),
+        "secondary_position": sum(1 for row in enriched_rows if row["secondary_position"]),
+        "position_group": sum(1 for row in enriched_rows if row["position_group"]),
         "height": sum(1 for row in enriched_rows if row["height"]),
         "weight": sum(1 for row in enriched_rows if row["weight"]),
         "height_inches": sum(1 for row in enriched_rows if row["height_inches"]),
@@ -423,6 +488,9 @@ def main():
     print(f"Matched rows from 2K26 local roster: {matched_2k26}")
     print(f"Matched rows from balldontlie: {matched_balldontlie}")
     print(f"Rows with position: {coverage['position']}")
+    print(f"Rows with primary_position: {coverage['primary_position']}")
+    print(f"Rows with secondary_position: {coverage['secondary_position']}")
+    print(f"Rows with position_group: {coverage['position_group']}")
     print(f"Rows with height: {coverage['height']}")
     print(f"Rows with weight: {coverage['weight']}")
     print(f"Rows with height_inches: {coverage['height_inches']}")
