@@ -5,7 +5,10 @@ import pandas as pd
 from constants import DATA_PATH
 import json
 from fastapi import Request
-from constants import PaginatedResponse
+from schemas import PaginatedResponse
+
+DEFAULT_LIMIT = 25
+MAX_LIMIT = 100
 
 # attributes
 ATTRIBUTE_COLUMNS = {
@@ -47,7 +50,7 @@ ATTRIBUTE_COLUMNS = {
     "agility"
 }
 
-EXACT_FILTER_COLUMNS = {
+ALLOWED_QUERY_PARAMS = {
     "name",
     "season",
     "starting_season",
@@ -57,14 +60,25 @@ EXACT_FILTER_COLUMNS = {
     "height_inches",
     "weight_lbs",
     "limit",
-    "offset"
+    "offset",
+    "sort_by",
+    "sort_order",
+}
+
+SORTABLE_COLUMNS = ATTRIBUTE_COLUMNS | {
+    "name",
+    "season",
+    "team",
+    "position_group",
+    "height_inches",
+    "weight_lbs",
 }
 
 def validate_query_filters(query_params):
     invalid_filters = []
 
     for key in query_params:
-        if key in EXACT_FILTER_COLUMNS:
+        if key in ALLOWED_QUERY_PARAMS:
             continue
 
         if key.startswith("min_"):
@@ -107,6 +121,9 @@ def apply_query_filters(df, query_params):
     data = df
 
     for key, value in query_params.items():
+        if key in ("limit", "offset", "sort_by", "sort_order"):
+            continue
+
         if key == "season":
             try:
                 data = data[data["season"] == int(value)]
@@ -205,6 +222,46 @@ def apply_query_filters(df, query_params):
 
     return data
 
+def apply_sorting(df, sort_by, sort_order):
+    if sort_by is None:
+        return df
+
+    if sort_by not in SORTABLE_COLUMNS:
+        raise HTTPException(
+            status_code=400,
+            detail={"message": f"Unsupported sort column: {sort_by}"},
+        )
+
+    if sort_order not in ("asc", "desc"):
+        raise HTTPException(
+            status_code=400,
+            detail={"message": "sort_order must be 'asc' or 'desc'"},
+        )
+
+    return df.sort_values(by=sort_by, ascending=sort_order == "asc")
+
+def get_pagination_params(query_params):
+    try:
+        limit = int(query_params.get("limit", DEFAULT_LIMIT))
+        offset = int(query_params.get("offset", 0))
+    # If limit or offset cannot be converted to integers, return a 400 error
+    except ValueError:
+        raise HTTPException(
+            status_code=400,
+            detail={"message": "Invalid pagination parameters"},
+        )
+
+    # Ensure limit and offset are within valid bounds
+    if limit < 1 or limit > MAX_LIMIT or offset < 0:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "message": f"limit must be between 1 and {MAX_LIMIT}; offset must be 0 or greater"
+            },
+        )
+
+    return limit, offset
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup code
@@ -230,35 +287,26 @@ async def read_players(request: Request):
 
     # Apply filters to the DataFrame based on query parameters
     data = apply_query_filters(app.state.df, request.query_params)
+    data = apply_sorting(
+        data,
+        request.query_params.get("sort_by"),
+        request.query_params.get("sort_order", "asc"),
+    )
     total = len(data)
 
     # Apply pagination parameters
-    try:
-        limit = int(request.query_params.get("limit", 25))
-        offset = int(request.query_params.get("offset", 0))
-    # If limit or offset cannot be converted to integers, return a 400 error
-    except ValueError:
-        raise HTTPException(
-            status_code=400,
-            detail={"message": "Invalid pagination parameters"},
-        )
+    limit, offset = get_pagination_params(request.query_params)
 
-    # Ensure limit and offset are within valid bounds
-    if limit < 1 or offset < 0:
-        raise HTTPException(
-            status_code=400,
-            detail={"message": "Invalid pagination parameters"},
-        )
     # Paginate the data (iloc is used here for slicing the DataFrame based on offset and limit)
     data = data.iloc[offset : offset + limit]
     data = clean_for_json(data)
 
     # Apply pagination
     return {
-    "total": total,
-    "limit": limit,
-    "offset": offset,
-    "data": json.loads(data.to_json(orient="records")),
+        "total": total,
+        "limit": limit,
+        "offset": offset,
+        "data": json.loads(data.to_json(orient="records")),
     }
 
 @app.get("/players/summary")
