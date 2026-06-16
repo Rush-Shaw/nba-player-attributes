@@ -167,6 +167,9 @@ data/
 models/         Saved CatBoost models, one per attribute
 notebooks/      Data cleaning, feature engineering, modeling, and inference notebooks
 scripts/        Data retrieval and attribute extraction scripts
+api.py          FastAPI app for querying the processed player attributes
+schemas.py      Pydantic response models for the API
+tests/          API tests
 requirements.txt
 ```
 
@@ -199,6 +202,61 @@ Then run the notebooks in order from `notebooks/`, starting with data cleanup an
 07_model_generation.ipynb
 08_model_inferencing_historical_data.ipynb
 ```
+
+## API Usage
+
+This project also includes a local FastAPI app for querying the processed player attribute dataset as JSON.
+
+The API reads from:
+
+`data/processed/master_attributes_with_bio.csv`
+
+Run the API from the project root:
+
+```bash
+uvicorn api:app --reload
+```
+
+The API will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+Interactive docs are available at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+Detailed API documentation is available in [`API.md`](API.md).
+
+Useful endpoints:
+
+```text
+GET /health
+GET /players
+GET /players/summary
+GET /players/filters
+```
+
+Example requests:
+
+```bash
+curl "http://127.0.0.1:8000/players?season=2025&team=Atlanta%20Hawks"
+curl "http://127.0.0.1:8000/players?name=Trae%20Young"
+curl "http://127.0.0.1:8000/players?min_overallAttribute=85&sort_by=overallAttribute&sort_order=desc"
+curl "http://127.0.0.1:8000/players?season=2025&min_threePointShot=80&limit=10"
+```
+
+`GET /players` supports:
+
+- Exact filters: `name`, `season`, `starting_season`, `ending_season`, `team`, `position_group`, `height_inches`, `weight_lbs`
+- Range filters using `min_` and `max_`, such as `min_overallAttribute`, `max_threePointShot`, and `min_speedWithBall`
+- Pagination with `limit` and `offset`
+- Sorting with `sort_by` and `sort_order`
+
+The API loads the CSV once when the server starts. If the dataset changes while the server is running, restart the server to load the updated data.
 
 ## Future Expansion
 
