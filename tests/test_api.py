@@ -3,6 +3,29 @@ from fastapi.testclient import TestClient
 from api import app
 
 
+def test_health_check():
+    with TestClient(app) as client:
+        response = client.get("/health")
+
+    assert response.status_code == 200
+    assert response.json() == {"status": "ok"}
+
+
+def test_players_filters_documents_supported_query_params():
+    with TestClient(app) as client:
+        response = client.get("/players/filters")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert "season" in body["exact_filters"]
+    assert "team" in body["exact_filters"]
+    assert "overallAttribute" in body["range_filters"]
+    assert body["pagination"]["default_limit"] == 25
+    assert body["pagination"]["max_limit"] == 100
+    assert "overallAttribute" in body["sorting"]["sortable_columns"]
+    assert body["sorting"]["sort_orders"] == ["asc", "desc"]
+
+
 def test_players_default_response_is_paginated():
     with TestClient(app) as client:
         response = client.get("/players")
@@ -56,3 +79,19 @@ def test_players_rejects_limit_over_maximum():
         response = client.get("/players?limit=101")
 
     assert response.status_code == 400
+
+
+def test_players_rejects_invalid_sort_column():
+    with TestClient(app) as client:
+        response = client.get("/players?sort_by=badColumn")
+
+    assert response.status_code == 400
+    assert response.json()["detail"]["message"] == "Unsupported sort column: badColumn"
+
+
+def test_players_rejects_invalid_sort_order():
+    with TestClient(app) as client:
+        response = client.get("/players?sort_by=overallAttribute&sort_order=sideways")
+
+    assert response.status_code == 400
+    assert response.json()["detail"]["message"] == "sort_order must be 'asc' or 'desc'"

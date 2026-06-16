@@ -271,7 +271,12 @@ async def lifespan(app: FastAPI):
     # Shutdown code here
 
 # Initialize the FastAPI app with the lifespan context manager
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(
+    title="NBA Player Attributes API",
+    description="API for querying generated NBA 2K-style player attributes.",
+    version="0.1.0",
+    lifespan=lifespan,
+)
 
 def clean_for_json(df):
     # Replace inf values with None for JSON serialization
@@ -279,6 +284,26 @@ def clean_for_json(df):
     # Convert NaN values to None for JSON serialization
     data = data.astype(object).where(pd.notnull(data), None)
     return data
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
+@app.get("/players/filters")
+async def read_players_filters():
+    return {
+        "exact_filters": sorted(ALLOWED_QUERY_PARAMS - {"limit", "offset", "sort_by", "sort_order"}),
+        "range_filters": sorted(ATTRIBUTE_COLUMNS),
+        "pagination": {
+            "default_limit": DEFAULT_LIMIT,
+            "max_limit": MAX_LIMIT,
+            "params": ["limit", "offset"],
+        },
+        "sorting": {
+            "sortable_columns": sorted(SORTABLE_COLUMNS),
+            "sort_orders": ["asc", "desc"],
+        },
+    }
 
 @app.get("/players", response_model=PaginatedResponse)
 async def read_players(request: Request):
