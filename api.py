@@ -5,6 +5,7 @@ import pandas as pd
 from constants import DATA_PATH
 import json
 from fastapi import Request
+from fastapi import limits
 
 # attributes
 ATTRIBUTE_COLUMNS = {
@@ -53,8 +54,8 @@ EXACT_FILTER_COLUMNS = {
     "ending_season",
     "team",
     "position_group",
-    "height",
-    "weight",
+    "height_inches",
+    "weight_lbs",
 }
 
 def validate_query_filters(query_params):
@@ -90,40 +91,100 @@ def apply_query_filters(df, query_params):
 
     for key, value in query_params.items():
         if key == "season":
-            data = data[data["season"] == int(value)]
+            try:
+                data = data[data["season"] == int(value)]
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
         elif key == "starting_season":
-            data = data[data["season"] >= int(value)]
+            try:
+                data = data[data["season"] >= int(value)]
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
         elif key == "ending_season":
-            data = data[data["season"] < int(value)]
+            try:
+                data = data[data["season"] <= int(value)]
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
         elif key == "team":
-            data = data[data["team"] == value]
+            try:
+                data = data[data["team"].str.casefold() == value.casefold()]
+            except AttributeError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
         elif key == "position_group":
-            data = data[data["position_group"] == value]
+            try:
+                data = data[data["position_group"].str.casefold() == value.casefold()]
+            except AttributeError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
         elif key.startswith("min_"):
             column = key.removeprefix("min_")
 
             if column in ATTRIBUTE_COLUMNS:
-                data = data[data[column] >= float(value)]
+                try:
+                    data = data[data[column] >= float(value)]
+                except ValueError:
+                    raise HTTPException(
+                        status_code=400,
+                        detail={"message": f"Invalid value for {key}"},
+                    )
 
         elif key.startswith("max_"):
             column = key.removeprefix("max_")
 
             if column in ATTRIBUTE_COLUMNS:
-                data = data[data[column] <= float(value)]
-        
-        elif key == ("height"):
-            data = data[data["height_inches"] == int(value)]
+                try:
+                    data = data[data[column] <= float(value)]
+                except ValueError:
+                    raise HTTPException(
+                        status_code=400,
+                        detail={"message": f"Invalid value for {key}"},
+                    )
 
-        elif key == ("weight"):
-            data = data[data["weight_lbs"] == int(value)]
+        elif key == ("height_inches"):
+            try:
+                data = data[data["height_inches"] == int(value)]
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
+
+        elif key == ("weight_lbs"):
+            try:
+                data = data[data["weight_lbs"] == int(value)]
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
         elif key == "name":
-            data = data[data["name"] == value]
+            try:
+                data = data[data["name"].str.casefold() == value.casefold()]
+            except AttributeError:
+                raise HTTPException(
+                    status_code=400,
+                    detail={"message": f"Invalid value for {key}"},
+                )
 
     return data
 
