@@ -336,5 +336,6 @@ async def read_players(request: Request):
 
 @app.get("/players/summary")
 async def read_players_summary():
-    data = clean_for_json(app.state.df)
-    return json.loads(data.describe().to_json())
+    summary = app.state.df.replace([np.inf, -np.inf], pd.NA).describe()
+    summary = summary.astype(object).where(pd.notnull(summary), None)
+    return json.loads(summary.to_json())
