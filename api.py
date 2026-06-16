@@ -5,7 +5,7 @@ import pandas as pd
 from constants import DATA_PATH
 import json
 from fastapi import Request
-from fastapi import limits
+from constants import PaginatedResponse
 
 # attributes
 ATTRIBUTE_COLUMNS = {
@@ -56,6 +56,8 @@ EXACT_FILTER_COLUMNS = {
     "position_group",
     "height_inches",
     "weight_lbs",
+    "limit",
+    "offset"
 }
 
 def validate_query_filters(query_params):
@@ -87,6 +89,21 @@ def validate_query_filters(query_params):
         )
 
 def apply_query_filters(df, query_params):
+    """
+    data = data[data["key"] == int(value)]
+
+    essentially we want to loop through all query parameters and apply the appropriate filter to the dataframe based on the parameter key and value.
+    so if the key is something like position_group, then we will first get
+    data["position_group"] which will give us a series of pos groups
+    eg) guard, wing, big, etc
+    then the comparision is a boolean so if the value is guard, then we will get a boolean series 
+    where the value is True for all rows where the position group is guard and False otherwise
+    eg) True, False, False, etc
+    then we can use this boolean series to filter the dataframe and 
+    only keep the rows where the pos group is a guard 
+    so data[True, False, False, etc] will give us a dataframe with only guards
+    as it keeps the rows where boolean is True
+    """
     data = df
 
     for key, value in query_params.items():
@@ -206,12 +223,43 @@ def clean_for_json(df):
     data = data.astype(object).where(pd.notnull(data), None)
     return data
 
-@app.get("/players")
+@app.get("/players", response_model=PaginatedResponse)
 async def read_players(request: Request):
+    # Validate query filters to ensure only supported filters are used
     validate_query_filters(request.query_params)
+
+    # Apply filters to the DataFrame based on query parameters
     data = apply_query_filters(app.state.df, request.query_params)
+    total = len(data)
+
+    # Apply pagination parameters
+    try:
+        limit = int(request.query_params.get("limit", 25))
+        offset = int(request.query_params.get("offset", 0))
+    # If limit or offset cannot be converted to integers, return a 400 error
+    except ValueError:
+        raise HTTPException(
+            status_code=400,
+            detail={"message": "Invalid pagination parameters"},
+        )
+
+    # Ensure limit and offset are within valid bounds
+    if limit < 1 or offset < 0:
+        raise HTTPException(
+            status_code=400,
+            detail={"message": "Invalid pagination parameters"},
+        )
+    # Paginate the data (iloc is used here for slicing the DataFrame based on offset and limit)
+    data = data.iloc[offset : offset + limit]
     data = clean_for_json(data)
-    return json.loads(data.to_json(orient="records"))
+
+    # Apply pagination
+    return {
+    "total": total,
+    "limit": limit,
+    "offset": offset,
+    "data": json.loads(data.to_json(orient="records")),
+    }
 
 @app.get("/players/summary")
 async def read_players_summary():
